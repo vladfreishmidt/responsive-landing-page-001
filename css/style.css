@@ -94,4 +94,30 @@ HEADER
 
   #section-c {
     display: flex;
+    color: #4c4b4c;
+  }
+
+  #section-c div {
+    padding: 20px;
+  }
+
+  #section-c .box-1, #section-c .box-3 {
+    background: #ca7cff;
+  }
+
+  #section-c .box-2 {
+    background: #fc8fdb;
+  }
+
+
+
+  /* =============================
+  Media Queries
+  ============================== */
+
+  @media (max-width: 750px) {
+
+    #section-c {
+      flex-direction: column;
+    }
   }
