@@ -1,0 +1,97 @@
+
+/* ===============================
+GENERAL
+================================ */
+ * {
+   margin: 0;
+   padding: 0;
+ }
+
+ body {
+   margin: 0;
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   font-size: 17px;
+   color: #fff;
+   line-height: 1.6;
+ }
+
+
+
+/* =============================
+HEADER
+============================== */
+
+ #showcase {
+   background:
+   linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+   url('../img/showcase-bg.jpeg') center / cover;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   padding: 0 20px;
+ }
+
+ #showcase h1 {
+   font-size: 3em;
+   line-height: 1.2;
+ }
+
+ #showcase p {
+   font-size: 1.2em;
+   margin-top: 1.2rem;
+ }
+
+ #showcase .button {
+   font-size: 1.1em;
+   text-decoration: none;
+   color: #fff;
+   background-color: rgba(198, 39, 234, .7);
+   padding: 10px 20px;
+   border-radius: 5px;
+   margin-top: 1.2rem;
+   transition: background .5s ease-out;
+ }
+
+ #showcase .button:hover {
+   color: rgba(198, 39, 234, .7);
+   background-color: #fff;
+ }
+
+
+
+ /* =============================
+ SECTION A
+ ============================== */
+
+  #section-a {
+    padding: 20px;
+    background-color: #f2dcf7;
+    color: #4c4b4c;
+    text-align: center;
+  }
+
+
+
+ /* =============================
+ SECTION B
+ ============================== */
+
+  #section-b {
+    padding: 20px;
+    background-color: #ad85ad;
+    color: #4c4b4c;
+    text-align: center;
+  }
+
+
+
+  /* =============================
+  SECTION C
+  ============================== */
+
+  #section-c {
+    display: flex;
+  }
